@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px 60px;
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+/* இடதுபுற லோகோ பகுதி */
+.logo-section .logotype {
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.logo-section h1 {
+    font-size: 48px;
+    color: #d4af37; /* தங்க நிறம் */
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.logo-section .subtitle {
+    font-style: italic;
+    font-size: 24px;
+    color: #fff;
+    margin-top: -5px;
+}
+.nav-menu {
+    background: #333;
+    padding: 15px 40px;
+    border-radius: 0 0 0 40px; /* இமேஜில் உள்ளது போன்ற வளைவு */
+    border-bottom: 4px solid #d4af37;
+}
+
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-menu ul li {
+    margin-left: 30px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: #ccc;
+    font-size: 13px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.nav-menu ul li a:hover {
+    color: #d4af37;
+}
+/* கூகுள் எழுத்துருக்கள் */
+@import url('https://googleapis.com');
+
+.logo-container {
+    padding: 30px;
+    background-color: #111; /* கருப்பு பின்னணி */
+    display: inline-block;
+}
+
+/* மேலே உள்ள சிறிய டெக்ஸ்ட் */
+.brand-top {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 5px;
+}
+
+.logo-icon {
+    color: #c5a059; /* கோல்டன் நிறம் */
+    font-size: 20px;
+}
+
+.brand-text {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+/* முக்கிய ஹோட்டல் பெயர் - ROYAL PALACE */
+.hotel-name {
+    font-family: 'Cinzel', serif; /* ராஜகம்பீரமான எழுத்துரு */
+    font-size: 55px;
+    color: #c5a059;
+    margin: 0;
+    line-height: 0.9;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* கீழே உள்ள டேக்லைன் - Luxury Stays */
+.hotel-tagline {
+    font-family: 'Great Vibes', cursive; /* அழகான கையெழுத்து எழுத்துரு */
+    font-size: 32px;
+    color: #ffffff;
+    margin-top: -5px;
+    margin-left: 40px;
+    opacity: 0.9;
+}
+
