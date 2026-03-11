@@ -1,7 +1,6 @@
 import React from 'react'
 import './Home.css'
 import img1 from '../image/img1.jpg'
-import img2 from '../image/img3.jpg'
 const Home = () => {
   return (
     <div>
@@ -28,7 +27,7 @@ const Home = () => {
     <div class="hero-image-area">
         <div class="image-wrapper">
             <img src={img1} alt="Resort View"/>
-            <img src={img2} alt="front view"/>
+    
             
             <div class="gold-border-shape"></div>
         </div>

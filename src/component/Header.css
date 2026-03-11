@@ -65,16 +65,14 @@ body {
 .nav-menu ul li a:hover {
     color: #d4af37;
 }
-/* கூகுள் எழுத்துருக்கள் */
 @import url('https://googleapis.com');
 
 .logo-container {
     padding: 30px;
-    background-color: #111; /* கருப்பு பின்னணி */
+    background-color: #111; 
     display: inline-block;
 }
 
-/* மேலே உள்ள சிறிய டெக்ஸ்ட் */
 .brand-top {
     display: flex;
     align-items: center;
@@ -83,7 +81,7 @@ body {
 }
 
 .logo-icon {
-    color: #c5a059; /* கோல்டன் நிறம் */
+    color: #c5a059; 
     font-size: 20px;
 }
 
