@@ -3,11 +3,21 @@ import './Service.css'
 import { hall } from '../constant/Data'
 import { room } from '../constant/Data'
 import img5 from '../image/img9.jpg'
+import { addToFav } from '../redux/favSlice';
+import { useSelector,useDispatch } from 'react-redux'
+
 const Service = () => {
+   const count=useSelector((state)=>state.favorite.value)
+  const dispatch = useDispatch();
+   const addFav = (item) => {
+    dispatch(addToFav(item));
+    alert("Added to Favorites!");
+  };
+
   return (
     <div class="container-fluid">
         <div class="row1">
-            <h1>ROOM GALLERY</h1>
+            <h1>ROOM GALLERY{count}</h1>
             <img src={img5} alt="rooms"/>
              </div>         
         <div className='row2'>  
@@ -15,6 +25,7 @@ const Service = () => {
             hall.map((item)=>
              <div className="col1" id={item.id}>
                 <img src={item.img} alt="hall"/>
+                <button onClick={() => addFav(item)}>❤️ Favorite</button>
            </div>
            )
         }
@@ -24,6 +35,9 @@ const Service = () => {
             room.map((item)=>
              <div className="col1" id={item.id}>
                 <img src={item.img} alt="hall"/>
+                 <h5 class="card-title">{item.title} </h5>
+            
+    <button onClick={() => addFav(item)}>❤️ Favorite</button>
            </div>
            )
         }   

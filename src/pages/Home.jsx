@@ -20,6 +20,7 @@ const Home = () => {
         </div>
         
         <div class="slider-nav">
+            <button className='but'>Booking Now</button><br/>
             <button class="nav-btn">←</button>
             <button class="nav-btn">→</button>
         </div>
@@ -30,13 +31,6 @@ const Home = () => {
     
             
             <div class="gold-border-shape"></div>
-        </div>
-        
-        <div class="dots-container">
-            <span class="dot"></span>
-            <span class="dot active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
         </div>
     </div>
 </section>

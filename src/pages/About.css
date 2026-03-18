@@ -18,12 +18,6 @@
     font-size: 25px;
     font-weight: bold;
 }
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Georgia', serif; 
-    background-color: #ffffff;
-}
 
 .about-section {
     padding: 100px 20px;
@@ -79,19 +73,10 @@ body {
 .feature-item {
     text-align: left;
 }
-
-.icon {
-    font-size: 35px;
-    color: #d4a373;
-    margin-bottom: 20px;
-    display: block;
-}
-
 .feature-item h3 {
     font-size: 24px;
     font-weight: 500;
     color: #111;
-    margin-bottom: 15px;
 }
 
 .feature-item p {
@@ -123,28 +108,3 @@ width: 27px;
     gap: 60px;
 }
 
-.info-box {
-    text-align: left;
-}
-
-.icon {
-    font-size: 32px;
-    color: #e67e22; /* படத்தில் உள்ளவாறு ஆரஞ்சு/பிரவுன் நிறம் */
-    margin-bottom: 25px;
-    display: inline-block;
-}
-
-.info-box h3 {
-    font-size: 26px;
-    font-weight: 500;
-    color: #1a1a1a;
-    margin-bottom: 15px;
-    letter-spacing: 0.5px;
-}
-
-.info-box p {
-    font-size: 16px;
-    line-height: 1.8;
-    color: #555;
-    margin: 0;
-}

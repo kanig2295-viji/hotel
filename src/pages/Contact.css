@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.contact-container {
+    display: flex;
+    width: 900px;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* இடது பக்கம் - Dark Side */
+.contact-info {
+    flex: 1;
+    background: #4d4a4a; /* இருண்ட நிறம் */
+    color: #fff;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.info-box i {
+    font-size: 20px;
+    color: #555;
+}
+
+.info-box h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.info-box p {
+    color: #bbb;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* வலது பக்கம் - White Side */
+.contact-form {
+    flex: 1.5;
+    padding: 60px 50px;
+}
+
+.contact-form h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.input-group input, .input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+
+.name-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.send-btn {
+    background: #00a86b; /* பச்சை நிற பட்டன் */
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.send-btn:hover {
+    background: #008f5d;
+}

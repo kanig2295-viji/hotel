@@ -6,8 +6,6 @@
     overflow: hidden;
     padding-left: 80px;
 }
-
-/* இடதுபுற டெக்ஸ்ட் ஸ்டைல் */
 .hero-content {
     flex: 1;
     z-index: 2;
@@ -36,7 +34,8 @@
 }
 
 .slider-nav {
-    margin-top: 40px;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .nav-btn {
@@ -55,19 +54,16 @@
     background: #d4af37;
     color: #000;
 }
-
-/* வலதுபுற இமேஜ் மற்றும் ஷேப் ஸ்டைல் */
 .hero-image-area {
     flex: 1.5;
-    position: relative;
+    /* position: relative; */
     height: 100vh;
 }
 
 .image-wrapper {
-    position: relative;
+    /* position: relative; */
     height: 100%;
     width: 100%;
-    /* இமேஜை சாய்வாக வெட்ட (Clip-path) */
     clip-path: polygon(15% 0, 100% 0, 100% 100%, 0% 100%);
 }
 
@@ -76,10 +72,8 @@
     height: 100%;
     object-fit: cover;
 }
-
-/* தங்க நிற சாய்வான கோடு */
 .gold-border-shape {
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 15%;
     width: 15px;
@@ -87,10 +81,7 @@
     background: linear-gradient(to bottom, #d4af37, #f1d592);
     box-shadow: -5px 0 15px rgba(0,0,0,0.5);
 }
-
-/* ஸ்லைடர் புள்ளிகள் (Dots) */
 .dots-container {
-    position: absolute;
     bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
@@ -107,6 +98,22 @@
 
 .dot.active {
     background-color: #d4af37;
-    width: 25px; /* ஆக்டிவ் டாட் நீளமாக இருக்க */
+    width: 25px; 
     border-radius: 5px;
+}
+.but{
+    width: 120px;
+     background: transparent;
+    border: 2px solid #d4af37;
+    color: #fff;
+    height: 40px;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.but:hover {
+    background: #d4af37;
+    color: #000;
 }
