@@ -1,0 +1,132 @@
+.rows1{
+  width: 100%;
+  text-align: center;
+}
+.rows1 h5{
+   font-size: 20px;
+}
+.rows1 h1{
+   font-size: 40px;
+}
+.row2{
+   width: 90%;
+   border: 3px solid;
+   border-color: rgb(178, 200, 203);
+   padding: 20px;
+   margin: 50px;
+}
+.rooms img{
+    width: 250px;
+}
+.details{
+   margin: 10px;  
+}
+.details h5{
+   font-size: 30px;
+    text-align: left;
+}
+
+.features-container {
+  display: flex; 
+  align-items: center;
+  gap: 15px; 
+  font-family: Arial, sans-serif;
+  color: #555;
+  margin-top: 10px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 18px;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 500;
+}
+.feature-divider {
+  width: 1px;
+  height: 20px;
+  background-color: #ddd;
+}
+.price{
+   padding-left: 80px;
+}
+.price button{
+      width: 100px;
+      border: 1px solid;
+      border-radius: 10px;
+      border-color: #D4AF37;;
+     background-color: #D4AF37;
+}
+.contact{
+   width: 95%;
+   display: flex;
+   margin: 20px;
+}
+.ima img{
+   width: 380px;
+   height: auto;
+}
+.descripe h5{
+   font-size: 30px;
+}
+.descripe p{
+   font-size: 15px;
+}
+.descripe {
+   margin: 20px;
+}
+.descripe button{
+   width: 120px;
+   height: 45px;
+   font-size: 15px;
+    padding: 10px 10px 10px 10px;
+    background-color: #D4AF37;
+    text-align: center;
+}
+.mem h5{
+ font-size: 40px;
+}
+.mem h5{
+ font-size: 40px;
+}
+.discount-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr); /* 3 சமமான காலம்கள் */
+   gap: 20px;                             /* கார்டுகளுக்கு இடையே இடைவெளி */
+   padding: 20px;
+   max-width: 1200px;
+   margin: 0 auto;                        /* சென்டரில் வர */
+}
+
+/* ஒவ்வொரு தனி கார்டுக்கும் */
+.discount-card {
+   border: 1px solid #ddd;
+   padding: 15px;
+   text-align: center;
+   background-color: #fff;
+   border-radius: 8px;
+}
+
+.discount-card img {
+   width: 100%;       /* கார்டின் அளவுக்கு ஏத்தபடி படம் மாறும் */
+   height: 200px;
+   object-fit: cover; /* படம் இழுக்கப்படாமல் இருக்க */
+   border-radius: 5px;
+}
+
+.night button {
+   width: 100%;
+   padding: 10px;
+   background-color: #D4AF37;
+   border: none;
+   color: white;
+   cursor: pointer;
+   margin-top: 10px;
+}

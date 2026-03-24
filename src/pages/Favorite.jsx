@@ -20,7 +20,7 @@ const Favorite = () => {
           {favorites.map((item) => (
             <div className="col8" key={item.id}>
               <img src={item.img} alt={item.title} />
-              <div className="but">
+              <div className="but1">
               
                 <button onClick={() => handleRemove(item.id)}>Remove</button>
               </div>

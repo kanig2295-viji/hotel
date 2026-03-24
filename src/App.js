@@ -7,6 +7,7 @@ import Service from './pages/Service';
 import Contact from './pages/Contact';
 import { BrowserRouter,Route,Routes } from 'react-router-dom';
 import Favorite from './pages/Favorite';
+import Rooms from './pages/Rooms'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
        <Route path="service" element={<Service/>}/> 
        <Route path="contact" element={<Contact/>}/> 
        <Route path="favorite" element={<Favorite/>}/>
+       <Route path="rooms" element={<Rooms/>}/> 
     </Routes>
     <Footer/>
     </BrowserRouter>

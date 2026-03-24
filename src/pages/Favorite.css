@@ -36,25 +36,26 @@ h2 {
   object-fit: cover;
   display: block;
 }
-.but {
+.but1 {
   padding: 15px;
   text-align: center;
 }
-.but button {
-  width: 100%;
-  padding: 10px;
-  border: 1.5px solid #ff4d4d;
+.but1 button {
+  width: 80px;
   background: transparent;
-  color: #ff4d4d;
-  font-weight: 600;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 0.9rem;
+    border: 2px solid #d4af37;
+    color: white;
+    border-radius: 10%;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    text-align: center;
+  
 }
 .but button:hover {
-  background: #ff4d4d;
-  color: white;
+  background: #d4af37;
+  color: rgb(20, 19, 19);
 }
 @media (max-width: 480px) {
   .row7 {

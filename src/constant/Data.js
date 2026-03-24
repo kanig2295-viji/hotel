@@ -9,38 +9,46 @@ import img4 from '../image/img8.jpg'
 export const hall=[
     {
         id:1,
-        img:img1
+        img:img1,
+        title:"Clouds Resort"
     },
     {
         id:2,
-        img:img2
+        img:img2,
+        title:"Clifftop Club"
     },
     {
         id:3,
-        img:img3
+        img:img3,
+        title:'Infinity Pool'
     },
     {
         id:4,
-        img:img4
+        img:img4,
+        title:'In-room Dining'
     }
 ]
 
 export const room=[
     {
         id:5,
-        img:img6
+        img:img6,
+        title:"Lobby"
     },
     {
-        id:5,
-        img:img7
+        id:6,
+        img:img7,
+        title:"Honore King Bed with Balcony"
     },
     {
         id:7,
-        img:img8
+        img:img8,
+        title:"Speakeasy"
     },
     {
         id:8,
-        img:img9
+        img:img9,
+        title:"Main Lobby"
     }
 ]
 

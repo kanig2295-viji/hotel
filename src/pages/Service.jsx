@@ -17,7 +17,7 @@ const Service = () => {
   return (
     <div class="container-fluid">
         <div class="row1">
-            <h1>ROOM GALLERY{count}</h1>
+            <h1>Explore{count}</h1>
             <img src={img5} alt="rooms"/>
              </div>         
         <div className='row2'>  
@@ -25,7 +25,8 @@ const Service = () => {
             hall.map((item)=>
              <div className="col1" id={item.id}>
                 <img src={item.img} alt="hall"/>
-                <button onClick={() => addFav(item)}>❤️ Favorite</button>
+                <h5>{item.title}</h5>
+                <button onClick={() => addFav(item)}>❤️</button>
            </div>
            )
         }
@@ -35,9 +36,10 @@ const Service = () => {
             room.map((item)=>
              <div className="col1" id={item.id}>
                 <img src={item.img} alt="hall"/>
-                 <h5 class="card-title">{item.title} </h5>
+                <h5>{item.title}</h5>
             
-    <button onClick={() => addFav(item)}>❤️ Favorite</button>
+            
+    <button onClick={() => addFav(item)}>❤️</button>
            </div>
            )
         }   
